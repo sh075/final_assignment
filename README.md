@@ -12,13 +12,13 @@
 ![alt text](https://github.com/sh075/final_assignment/blob/main/rosgraph.png?raw=true)
 
 ## Contents of the Package
-- **random_server.cpp:** Node used for generating random coordinates out of the 6 coordinates, [(-4,-3);(-4,2);(-4,7);(5,-7);(5,-3);(5,1)]
-- **user_interface.cpp:** Node used for getting input from user to control the robot in different modes
-- **target.srv:** Custom service file for x and y coordinates
+- **Rand_Server.cpp:** Node used for generating random coordinates out of the 6 coordinates, [(-4,-3);(-4,2);(-4,7);(5,-7);(5,-3);(5,1)]
+- **robot_interface.cpp:** Node used for getting input from user to control the robot in different modes
+- **robot_target.srv:** Custom service file for x and y coordinates
 - **wall_follow_service_m.py:** This service file makes the robot follow the walls
 - **simulation_gmapping.launch:** Launch file for executing the simulator 
 - **move_base.launch:** Launch file for executing move_base
-- **user_interface.launch:** Launch file for executing the main user interface
+- **robot_launch.launch:** Launch file for executing the main user interface
 ## How to run the code
 First go the ROS workspace and type this command:
 ```
