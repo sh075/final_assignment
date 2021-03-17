@@ -37,8 +37,7 @@ Finally, type the following command to execute the User Interface:
 roslaunch final_assignment robot_launch.launch
 ```
 
-## System’s limitations and possible improvements
-When the user selects option # 1 or 2, the robot moves towards the target coordinates. For example, the user is unable to provide new coordinates to the robot until it has reached the target position. There should be a command to stop the robot and then provide new target coordinates. When the user selects option # 3, the robot continues to follow the walls and it cannot be stopped. There should be a condition that continuously checks if a specific key is pressed or not in order to stop the robot and return to the main user interface.
+
 
 # Requirements
 - Ubuntu (Linux) or Docker Image https://hub.docker.com/r/carms84/rpr
